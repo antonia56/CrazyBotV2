@@ -11,9 +11,9 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
+╭━〘 ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯ 〙━╮
+ ‖ ֎┉┉┉⊰ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ⊱┉┉┉֍
+ ‖ 🌟 *¡𝗛ola! ${username}* 🌟
  ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
  ‖
  ‖ Ⓜ️ *_MENÚ COMPLETO_* Ⓜ️
@@ -58,10 +58,10 @@ let menu =`
  ‖ ✅ *_CUENTAS OFICIALES GATABOT_* ✅
  ‖⇶ _${usedPrefix}cuentasgatabot | cuentasgb_
  ‖
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╰━〘 ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯ 〙━╯
+CrazyBot`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⁖ᯓ፨҈༺ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ༻፨҈ᯓ⁖
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
