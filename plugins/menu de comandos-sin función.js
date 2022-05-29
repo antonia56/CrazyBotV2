@@ -21,14 +21,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let str = `
-╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
-║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
+╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+║═ *CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║❇️ *¡𝗛ola! ${username}* ❇️
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║🔰 *Creadora/Editora: Gata Dios* 
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
+║🔰 *Creador/Editor: 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵* 
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *INFORMACIÓN|MENUS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ 
@@ -57,10 +57,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *NÚMERO DEl PROPIETARIO/A*
+┃ *NÚMERO DEl PROPIETARIO*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🐈 _${usedPrefix}owner_
-┣ ↠🐈 _${usedPrefix}contacto_
+┣ ↠⚜️ _${usedPrefix}owner_
+┣ ↠⚜️ _${usedPrefix}contacto_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *UNE UN BOT A TU GRUPO*
@@ -140,8 +140,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃ *GESTION DE GRUPOS* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔐 _${usedPrefix}admins *texto*_ 
-┣ ↠🔒 _${usedPrefix}añadir *numero*_ (desactivado)
-┣ ↠🔐 _${usedPrefix}sacar @tag_ (desactivado)
+┣ ↠🔒 _${usedPrefix}añadir *numero*_ (activado)
+┣ ↠🔐 _${usedPrefix}sacar @tag_ (activado)
 ┣ ↠🔒 _${usedPrefix}save *@tag + nombre de contacto*_
 ┣ ↠🔐 _${usedPrefix}daradmin | darpoder *@tag*_
 ┣ ↠🔒 _${usedPrefix}quitaradmin | quitarpoder *@tag*_
@@ -314,7 +314,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔮 _${usedPrefix}logos_ (lista)
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *PROPIETARIO/A DEL BOT*
+┃ *PROPIETARIO DEL BOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👑 _${usedPrefix}boost_
 ┣ ↠💎 _${usedPrefix}restart_
@@ -336,8 +336,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━━━━━━┛
-╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                       🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+║═ *CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵*
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯
 `.trim()
     let mentionedJid = [who]
