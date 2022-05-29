@@ -10,9 +10,9 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =`
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
+╭━〘 ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯ 〙━╮
+ ‖ ֎┉┉┉⊰ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ⊱┉┉┉֍
+ ‖ 🌟 *¡𝗛ola! ${username}* 🌟
  ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
  ‖
  ‖⇛ 🔮 _${usedPrefix}logos_ *(lista)*
@@ -42,10 +42,10 @@ let menu =`
  ‖⇛ 💮 _${usedPrefix}lolice *@tag*_
  ‖⇛ 💮 _${usedPrefix}simpcard *@tag*_
  ‖ ➥ ⧼ *_MENÚ LOGOS PERSONALIZADO_* ⧽ 
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╰━〘 ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯ 〙━╯
+CrazyBot`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⁖ᯓ፨҈༺ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ༻፨҈ᯓ⁖
 `.trim(), menu, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '👤 𝙈𝙀𝙉𝙐 𝘾𝙃𝘼𝙏 𝘼𝙉𝙊𝙉𝙄𝙈𝙊 👤', `#menuchat`, '💎 𝙈𝙀𝙉𝙐 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊/𝘼 💎', `#menupropietaria`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menulogos|menulogos|menucrearlogos|mlogos|Menucrearlogos|Mlogos|menúcrearlogos|menucrearlogo|mlogo)$/i
