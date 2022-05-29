@@ -10,9 +10,9 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =`
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
+╭━〘 ✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯ 〙━╮
+ ‖ ֎┉┉┉⊰ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ⊱┉┉┉֍
+ ‖ 🌟 *¡𝗛ola! ${username}* 🌟
  ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
  ‖
  ‖⇛ 💎 _${usedPrefix}boost | acelerar_
@@ -37,10 +37,10 @@ let menu =`
  ‖⇛ 💎 _${usedPrefix}bcbot *texto*_
  ‖⇛ 💎 _${usedPrefix}bcgc *texto*
  ‖ ➥ ⧼ *_MENÚ PROPIETARIO/A DEL BOT_* ⧽ 
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╰━〘 ✯✯✯✯✯✯✯✯ 〙━╯
+CrazyBot`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⁖ᯓ፨҈༺ CrazyBot | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 ༻፨҈ᯓ⁖
 `.trim(), menu, '👤 𝙈𝙀𝙉𝙐 𝘾𝙃𝘼𝙏 𝘼𝙉𝙊𝙉𝙄𝙈𝙊 👤', `#menuchat`, '💮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙇𝙊𝙂𝙊𝙎 💮', `#menucrearlogos`, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#menucompleto`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menupropietario|Menupropietario|Menúpropietario|menúpropietario|menupropietaria|Menupropietaria)$/i
